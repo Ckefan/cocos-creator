@@ -36,4 +36,4 @@
     组件属性主要是自带组建特殊设置，如果是用户组建，属性就是用户组件的properties引入项
     ![image](./image/attr.png)
 
-   <span  id="attr">2.场景变换</span><br>
+   <span  id="conversion">2.场景变换</span><br>
