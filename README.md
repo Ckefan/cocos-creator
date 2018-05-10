@@ -142,19 +142,19 @@
     });
 
 ### **主要组件的使用**
-<span  id="sprite">[1. sprite 图层精灵组件](http://docs.cocos.com/creator/manual/zh/components/sprite.html)</span><br>
+[1. sprite 图层精灵组件](http://docs.cocos.com/creator/manual/zh/components/sprite.html)<span id="sprite"></span><br>
   用法：`属性检查器>添加组件>添加渲染组建>sprite` <br>
   &emsp;&emsp;在资源管理器中拖入图片资源到 sprite组建中的spriteFrame属性中即可引用<br>
   如果我们想要在脚本组建(js)替换掉图层的时候，我们可以使用 [资源加载](#inside)的方法进行替换<br>
 
-<span  id="sprite">[2. animation 动画组件](http://docs.cocos.com/creator/manual/zh/components/animation.html)</span><br>
+[2. animation 动画组件](http://docs.cocos.com/creator/manual/zh/components/animation.html)<span  id="sprite"></span><br>
   用法：`属性检查器>添加组件>添加其他组件>Animation` <br>
   &emsp;&emsp;资源管理器中右键创建Animation Clip文件，开启动画编辑器，针对不同的动作可以在 `属性列表`中选择相应的属性；然后在Animation 中引入Animation Clip即可
 
   const Animation = node.getComponent(cc.Animation);
   Animation.playAdditive();//调用播放
 
-<span id="label" name="label">[3. label 文字渲染组件](http://docs.cocos.com/creator/manual/zh/components/label.html)</span><br>
+[3. label 文字渲染组件](http://docs.cocos.com/creator/manual/zh/components/label.html)<<span id="label" name="label">/span><br>
   用法：`属性检查器>添加组件>添加渲染组建>Label` <br>
 
     node.getComponent(cc.Label).string = "替换的文字";
