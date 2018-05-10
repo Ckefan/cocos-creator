@@ -154,7 +154,7 @@
   const Animation = node.getComponent(cc.Animation);
   Animation.playAdditive();//调用播放
 
-[3. label 文字渲染组件](http://docs.cocos.com/creator/manual/zh/components/label.html)<a id="label" name="label">/a><br>
+[3. label 文字渲染组件](http://docs.cocos.com/creator/manual/zh/components/label.html)<a name="label"></a><br>
   用法：`属性检查器>添加组件>添加渲染组建>Label` <br>
 
     node.getComponent(cc.Label).string = "替换的文字";
