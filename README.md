@@ -142,12 +142,12 @@
     });
 
 ### **主要组件的使用**
-[1. sprite 图层精灵组件](http://docs.cocos.com/creator/manual/zh/components/sprite.html)<a id="sprite"></a><br>
+[1. sprite 图层精灵组件](http://docs.cocos.com/creator/manual/zh/components/sprite.html)<a name="sprite"></a><br>
   用法：`属性检查器>添加组件>添加渲染组建>sprite` <br>
   &emsp;&emsp;在资源管理器中拖入图片资源到 sprite组建中的spriteFrame属性中即可引用<br>
   如果我们想要在脚本组建(js)替换掉图层的时候，我们可以使用 [资源加载](#inside)的方法进行替换<br>
 
-[2. animation 动画组件](http://docs.cocos.com/creator/manual/zh/components/animation.html)<a  id="sprite"></a><br>
+[2. animation 动画组件](http://docs.cocos.com/creator/manual/zh/components/animation.html)<a  name="animation"></a><br>
   用法：`属性检查器>添加组件>添加其他组件>Animation` <br>
   &emsp;&emsp;资源管理器中右键创建Animation Clip文件，开启动画编辑器，针对不同的动作可以在 `属性列表`中选择相应的属性；然后在Animation 中引入Animation Clip即可
 
@@ -160,6 +160,5 @@
     node.getComponent(cc.Label).string = "替换的文字";
   *添加文字的时候我们可以使用`属性检查器>添加组件>添加渲染组建>LabelOutline`组件给字体添加阴影，是文字更有立体感。
 
-[4. mask 遮罩组件](http://docs.cocos.com/creator/manual/zh/components/mask.html){#mask}<br>
-
+[4. mask 遮罩组件](http://docs.cocos.com/creator/manual/zh/components/mask.html)<a name="mask"></a><br>
 <img src="./image/1.jpg"> ========>变![image](./image/2.png)
