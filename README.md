@@ -154,12 +154,12 @@
   const Animation = node.getComponent(cc.Animation);
   Animation.playAdditive();//调用播放
 
-<span  id="label">[3. label 文字渲染组件](http://docs.cocos.com/creator/manual/zh/components/label.html)</span><br>
+<span id="label" name="label">[3. label 文字渲染组件](http://docs.cocos.com/creator/manual/zh/components/label.html)</span><br>
   用法：`属性检查器>添加组件>添加渲染组建>Label` <br>
 
     node.getComponent(cc.Label).string = "替换的文字";
   *添加文字的时候我们可以使用`属性检查器>添加组件>添加渲染组建>LabelOutline`组件给字体添加阴影，是文字更有立体感。
 
-[4. mark 遮罩组件](http://docs.cocos.com/creator/manual/zh/components/mask.html){#mark}<br>
+[4. mask 遮罩组件](http://docs.cocos.com/creator/manual/zh/components/mask.html){#mask}<br>
 
 <img src="./image/1.jpg"> ========>变![image](./image/2.png)
