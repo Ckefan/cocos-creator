@@ -193,3 +193,5 @@
         }
 一般是60次/秒；也就是说update一秒执行60次 ，具体可了解[FPS](https://baike.baidu.com/item/fps/3227416)
 
+2. webScoket 常驻监听
+  
