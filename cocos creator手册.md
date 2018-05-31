@@ -1,5 +1,4 @@
 # cocos-creator
-### 学习了一段时间的cocos-creator，总结了一些经验 
 ---
 
 #### 场景处理
@@ -185,14 +184,10 @@
 
 ### **引用技巧**
 
-1. update 每帧调用方法<a name="frame"></a><br>
+update 每帧调用方法<a name="frame"></a><br>
 在一些持续动画场景中，我们可以利用update方法更新场景，例如：飞机大战，愤怒的小鸟，敲砖块
 
         update(dt){
           console.log('每帧执行一次')
         }
 一般是60次/秒；也就是说update一秒执行60次 ，具体可了解[FPS](https://baike.baidu.com/item/fps/3227416)
-
-2. webScoket 常驻监听
-  
-  
